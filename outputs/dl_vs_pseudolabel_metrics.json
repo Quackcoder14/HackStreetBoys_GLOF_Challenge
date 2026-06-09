@@ -1,0 +1,19 @@
+{
+  "aggregate": {
+    "iou": 0.2856,
+    "iou_std": 0.202,
+    "f1": 0.4063,
+    "f1_std": 0.2455,
+    "precision": 0.2879,
+    "precision_std": 0.2047,
+    "recall": 0.8804,
+    "recall_std": 0.3127,
+    "accuracy": 0.8119,
+    "accuracy_std": 0.1529,
+    "kappa": 0.3059,
+    "kappa_std": 0.2024,
+    "specificity": 0.759,
+    "specificity_std": 0.2225
+  },
+  "n_images": 575
+}

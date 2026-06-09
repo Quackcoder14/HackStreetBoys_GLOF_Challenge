@@ -1,0 +1,11 @@
+{
+  "best_epoch": 3,
+  "val_dice_f1": 0.598,
+  "val_iou": 0.4266,
+  "val_precision": 0.4277,
+  "val_recall": 0.994,
+  "val_accuracy": 0.8366,
+  "val_kappa": 0.5151,
+  "train_images": 460,
+  "val_images": 115
+}

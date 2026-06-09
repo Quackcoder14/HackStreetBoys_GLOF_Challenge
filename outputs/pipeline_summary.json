@@ -1,0 +1,45 @@
+{
+  "pipeline_mode": "hybrid_dl",
+  "dataset": {
+    "total_images": 575,
+    "images_processed": 575,
+    "images_with_lakes": 555,
+    "mean_lake_coverage": 0.303597
+  },
+  "stage1_classical": {
+    "method": "Multi-feature brightness/HSV/texture/edge/shape",
+    "pseudo_masks_created": 575
+  },
+  "stage2_training": {
+    "best_epoch": 3,
+    "val_dice_f1": 0.598,
+    "val_iou": 0.4266,
+    "val_precision": 0.4277,
+    "val_recall": 0.994,
+    "val_accuracy": 0.8366,
+    "val_kappa": 0.5151,
+    "train_images": 460,
+    "val_images": 115
+  },
+  "outputs": {
+    "masks_dir": "C:\\Users\\dhanu\\Downloads\\SNUC GLOFeagles 2026 challenge datasets-20260409T180938Z-3-001\\solution\\outputs\\masks",
+    "overlays_dir": "C:\\Users\\dhanu\\Downloads\\SNUC GLOFeagles 2026 challenge datasets-20260409T180938Z-3-001\\solution\\outputs\\overlays",
+    "checkpoints": "C:\\Users\\dhanu\\Downloads\\SNUC GLOFeagles 2026 challenge datasets-20260409T180938Z-3-001\\solution\\outputs\\checkpoints",
+    "reports": "C:\\Users\\dhanu\\Downloads\\SNUC GLOFeagles 2026 challenge datasets-20260409T180938Z-3-001\\solution\\report"
+  },
+  "metrics_reported": [
+    "mIoU",
+    "F1 (Dice)",
+    "Precision",
+    "Recall",
+    "Accuracy",
+    "Cohen's Kappa"
+  ],
+  "model": {
+    "architecture": "U-Net with EfficientNet-B0 encoder",
+    "encoder": "efficientnet_b0",
+    "input_size": "512x512",
+    "loss": "0.6\u00d7Dice + 0.4\u00d7BCE",
+    "parameters": "~4.7M"
+  }
+}
