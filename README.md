@@ -8,7 +8,7 @@ This repository contains the complete technical solution for the **GLOFeagles '2
 
 ## 📺 Explanation Video (Max 5 Minutes)
 
-- **YouTube Link:**
+- **YouTube Link:** https://youtu.be/Teqz01cjjC8?si=4Y6RxECdomKbnOMl
 
 ---
 
